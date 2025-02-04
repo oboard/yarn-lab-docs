@@ -5,6 +5,18 @@ export default defineConfig({
   title: 'YarnLab',
   description: 'YarnLab Documentation',
 
+  vite: {
+    server: {
+      proxy: {
+        '/bilibili': {
+          target: 'https://api.bilibili.com',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/bilibili/, ''),
+        }
+      }
+    }
+  },
+
   locales: {
     root: {
       label: '简体中文',
@@ -37,6 +49,7 @@ export default defineConfig({
               { text: '钩针文字图解 常用符号一览表', link: '/crochet/symbols' },
               { text: '钩针符号一览表（基础版）', link: '/crochet/basic' },
               { text: '钩针符号一览表（进阶版）', link: '/crochet/advanced' },
+              { text: '视频教程', link: '/crochet/videos' },
             ],
           },
         ],
