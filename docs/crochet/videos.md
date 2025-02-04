@@ -48,6 +48,24 @@ onMounted(() => {
 
 # 钩针视频教程
 
+<div class="support-card">
+  <h3>🌟 支持作者</h3>
+  <p>
+    如果这些教程对您有帮助，欢迎通过爱发电支持我继续创作更多优质内容！您的每一份支持都是我持续创作的动力。
+  </p>
+  <p>
+    通过支持，您可以：
+    <ul>
+      <li>🎨 获取更多图解</li>
+      <li>💡 优先解答您的问题</li>
+      <li>🎁 获得特别的资源</li>
+    </ul>
+  </p>
+  <a href="https://afdian.com/a/oboard" target="_blank" class="support-button">
+    ❤️ 去爱发电支持我
+  </a>
+</div>
+
 <div class="video-grid">
   <div v-for="video in videos" :key="video.bvid" class="video-card">
     <div class="video-player">
@@ -116,5 +134,49 @@ onMounted(() => {
 .video-desc {
   font-size: 14px;
   line-height: 1.5;
+}
+
+.support-card {
+  background: linear-gradient(145deg, #fff5f5 0%, #fff 100%);
+  border: 1px solid #ffeded;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.support-card h3 {
+  margin-top: 0;
+  color: #ff6b6b;
+}
+
+.support-card p {
+  margin: 16px 0;
+  line-height: 1.6;
+}
+
+.support-card ul {
+  margin: 16px 0;
+  padding-left: 20px;
+}
+
+.support-card li {
+  margin: 8px 0;
+}
+
+.support-button {
+  display: inline-block;
+  background: #ff6b6b;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.support-button:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
 }
 </style> 

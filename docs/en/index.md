@@ -34,4 +34,8 @@ features:
     title: Color Reference
     details: Comprehensive yarn color reference to help you choose the perfect color scheme
     link: /colors
+  - icon: ❤️
+    title: Support Author
+    details: Your support motivates me to keep creating and improving this tool
+    link: /support
 ---

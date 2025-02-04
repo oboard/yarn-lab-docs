@@ -34,4 +34,8 @@ features:
     title: 颜色对照表
     details: 全面的毛线颜色参考，帮助你选择完美的配色方案
     link: /colors
+  - icon: ❤️
+    title: 支持作者
+    details: 您的支持是我持续创作的动力，让我们一起让这个工具变得更好
+    link: /support
 ---
