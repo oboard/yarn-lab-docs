@@ -48,24 +48,6 @@ onMounted(() => {
 
 # 钩针视频教程
 
-<div class="support-card">
-  <h3>🌟 支持作者</h3>
-  <p>
-    如果这些教程对您有帮助，欢迎通过爱发电支持我继续创作更多优质内容！您的每一份支持都是我持续创作的动力。
-  </p>
-  <p>
-    通过支持，您可以：
-    <ul>
-      <li>🎨 获取更多图解</li>
-      <li>💡 优先解答您的问题</li>
-      <li>🎁 获得特别的资源</li>
-    </ul>
-  </p>
-  <a href="https://afdian.com/a/oboard" target="_blank" class="support-button">
-    ❤️ 去爱发电支持我
-  </a>
-</div>
-
 <div class="video-grid">
   <div v-for="video in videos" :key="video.bvid" class="video-card">
     <div class="video-player">
@@ -137,7 +119,6 @@ onMounted(() => {
 }
 
 .support-card {
-  background: linear-gradient(145deg, #fff5f5 0%, #fff 100%);
   border: 1px solid #ffeded;
   border-radius: 12px;
   padding: 24px;
