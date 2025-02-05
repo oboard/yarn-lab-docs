@@ -32,7 +32,6 @@ title: 支持作者
 }
 
 .support-card {
-  background: linear-gradient(145deg, #fff5f5 0%, #fff 100%);
   border: 1px solid #ffeded;
   border-radius: 16px;
   padding: 32px;
@@ -51,7 +50,6 @@ title: 支持作者
 }
 
 .benefits {
-  background: white;
   border-radius: 12px;
   padding: 24px;
   margin: 24px 0;
@@ -75,7 +73,6 @@ title: 支持作者
 
 .support-button {
   display: inline-block;
-  background: #ff6b6b;
   color: white;
   padding: 16px 32px;
   border-radius: 8px;
