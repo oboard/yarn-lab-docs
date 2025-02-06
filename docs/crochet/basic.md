@@ -24,7 +24,7 @@
 | 减针 | M | make | 短针 3 减针 | 3 个针目 合并为 1 个短针 | 1st | 1st |
 | 减针 | TM | sc/hdc/dc 3tog | 中长针 3 减针 | 3 个针目 合并为 1 个中长针 | 1st | 2st |
 | 减针 | FM |  | 长针 3 减针 | 3 个针目 合并为 1 个长针 | 1st | 3st |
-| 枣形针 | TQ | n hdc cluster | n 针 中长针枣形针 | n 个 未完成中长针 一次性拉出 | 1st | 2st |
+| 枣形针 | Q / TQ | n hdc cluster | n 针 中长针枣形针 | n 个 未完成中长针 一次性拉出 | 1st | 2st |
 | 枣形针 | FQ | n dc cluster | n 针 长针枣形针 | n 个 未完成长针 一次性拉出 | 1st | 3st |
 | 爆米花 | TG | n hdc popcorn | n 针 中长针爆米花针 | n 个 完整中长针 从第一针入针 拉出 | 1st | 2st |
-| 爆米花 | FG | n dc popcorn | n 针 长针爆米花针 | n 个 完整长针 从第一针入针 拉出 | 1st | 3st | 
+| 爆米花 | G / FG | n dc popcorn | n 针 长针爆米花针 | n 个 完整长针 从第一针入针 拉出 | 1st | 3st | 
