@@ -46,6 +46,7 @@ export default defineConfig({
             text: '钩针教程',
             items: [
               { text: '钩针常用术语一览表', link: '/crochet/terms' },
+              { text: '钩针选择器', link: '/crochet/selectors' },
               { text: '钩针文字图解 常用符号一览表', link: '/crochet/symbols' },
               { text: '钩针符号一览表（基础版）', link: '/crochet/basic' },
               { text: '钩针符号一览表（进阶版）', link: '/crochet/advanced' },
