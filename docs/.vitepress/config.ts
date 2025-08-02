@@ -26,7 +26,6 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '钩针教程', link: '/crochet/' },
-          { text: '颜色对照表', link: '/colors' },
           { text: '支持作者', link: '/support' },
 
           // {

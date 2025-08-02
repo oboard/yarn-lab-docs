@@ -30,10 +30,6 @@ features:
     title: Interactive Learning
     details: Practice online with instant feedback for a more engaging learning experience
     link: https://yarnlab.oboard.fun
-  - icon: 🎨
-    title: Color Reference
-    details: Comprehensive yarn color reference to help you choose the perfect color scheme
-    link: /colors
   - icon: ❤️
     title: Support Author
     details: Your support motivates me to keep creating and improving this tool
